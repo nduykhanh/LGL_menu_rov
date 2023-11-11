@@ -314,6 +314,19 @@ jobjectArray GetFeatureList(JNIEnv *env, jobject context)
     jobjectArray ret;
 
     const char *features[] = {
+        OBFUSCATE("Collapse_Chức Năng Cơ Bản"),
+        OBFUSCATE("11_CollapseAdd_CheckBox_Bypass"),
+        OBFUSCATE("12_CollapseAdd_CheckBox_Hack Map"),
+        // OBFUSCATE("13_CollapseAdd_SeekBar_<font color='blue'>Camera Fov </font>_1_15"),
+        OBFUSCATE("14_CollapseAdd_CheckBox_Show Hp"),
+        OBFUSCATE("15_CollapseAdd_CheckBox_Aim All Tướng"),
+        OBFUSCATE("16_CollapseAdd_CheckBox_ShowSkillStateInfo"),
+        OBFUSCATE("17_CollapseAdd_CheckBox_Fps120-IsPad"),
+        OBFUSCATE("18_CollapseAdd_CheckBox_Show Lịch Sử"),
+        OBFUSCATE("19_CollapseAdd_CheckBox_Show Name"),
+        OBFUSCATE("20_CollapseAdd_CheckBox_Aim Elsu"),
+        // OBFUSCATE("21_CollapseAdd_CheckBox_Hủy Hồi Chiêu (Ảo)"),
+
         OBFUSCATE("Collapse_Chức Năng ESP"),
         OBFUSCATE("1_CollapseAdd_CheckBox_Kích Hoạt ESP"),
         OBFUSCATE("2_CollapseAdd_CheckBox_ESP Dòng Kẻ"),
@@ -324,19 +337,6 @@ jobjectArray GetFeatureList(JNIEnv *env, jobject context)
         OBFUSCATE("5_CollapseAdd_CheckBox_ESP Đếm Địch"),
         OBFUSCATE("9_CollapseAdd_CheckBox_ESP Điểm Chấm"),
         OBFUSCATE("10_CollapseAdd_CheckBox_ESP Alert 360"),
-
-        OBFUSCATE("Collapse_Chức Năng Khác Khác"),
-        OBFUSCATE("11_CollapseAdd_CheckBox_Bypass"),
-        OBFUSCATE("12_CollapseAdd_CheckBox_Hack Map"),
-        OBFUSCATE("13_CollapseAdd_SeekBar_<font color='blue'>Camera Fov </font>_1_15"),
-        OBFUSCATE("14_CollapseAdd_CheckBox_Show Hp"),
-        OBFUSCATE("15_CollapseAdd_CheckBox_Aim All Tướng"),
-        OBFUSCATE("16_CollapseAdd_CheckBox_ShowSkillStateInfo"),
-        OBFUSCATE("17_CollapseAdd_CheckBox_Fps120-IsPad"),
-        OBFUSCATE("18_CollapseAdd_CheckBox_Show Lịch Sử"),
-        OBFUSCATE("19_CollapseAdd_CheckBox_Show Name"),
-        OBFUSCATE("20_CollapseAdd_CheckBox_Aim Elsu"),
-        OBFUSCATE("21_CollapseAdd_CheckBox_Hủy Hồi Chiêu (Ảo)"),
 
         OBFUSCATE("Collapse_ESP SETTINGS"),
         OBFUSCATE("2000_CollapseAdd_SeekBar_Độ Dày_1_100"),
