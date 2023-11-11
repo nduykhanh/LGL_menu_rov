@@ -50,3 +50,29 @@ Thanks to the following individuals whose code helped me develop this mod menu
 This project is for Educational Use only. We do not condone this project being used to gain an advantage against other people. This project was made for fun
 
 While commecial use/selling is allowed, we still strongly refrain you from buying any source codes on Telegram even if the author can be trusted, there is always a risk getting scammed. We will not be responsible for that. This project is always FREE to use
+
+# Jnject
+
+Quyền Vẽ Trên Ứng Dụng Khác:
+```c++
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+```
+Quyền Hiện Thị Menu: 
+
++ app\src\main\AndroidManifest.xml
+```c++
+<service
+android:name="com.android.support.Launcher"
+android:enabled="true"
+android:exported="true"
+android:stopWithTask="true" />
+```        
+Code Gọi Menu ở dex
+```c++
+invoke-static {p0}, Lcom/android/support/Launcher;->Start(Landroid/content/Context;)V
+``` 
+
+
+
+            
+
