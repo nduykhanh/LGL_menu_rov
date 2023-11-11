@@ -109,11 +109,11 @@ void CheckOverlayPermission(JNIEnv *env, jclass thiz, jobject ctx){
 
 void Init(JNIEnv *env, jobject thiz, jobject ctx, jobject title, jobject subtitle){
     //Set sub title
-    setText(env, title, OBFUSCATE("<b>Mod Menu By LongBTC</b>"));
+    setText(env, title, OBFUSCATE("<b>Mod Menu By NDK</b>"));
 
     //Set sub title
     setText(env, subtitle, OBFUSCATE("<b><marquee><p style=\"font-size:30\">"
-                                     "<p style=\"color:green;\">TeleGram:@Longbitcoin68</p> | "
+                                     "<p style=\"color:green;\">TeleGram:@criskennguyen</p> | "
                                      "Hack Liên Quân Mùa 1.51.1.2</p>"
                                      "</marquee></b>"));
 

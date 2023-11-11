@@ -51,13 +51,14 @@ public class EspView extends View implements Runnable {
     protected void onDraw(Canvas canvas) {
         if (canvas != null && getVisibility() == VISIBLE) {
             ClearCanvas(canvas);
-            time.setTime(System.currentTimeMillis());
-            if (getHeight() == 720 && getWidth() == 1280) {
-                DrawText(canvas, 255, 255, 255, 0, "                              " + formatter2.format(time) + "  " + formatter.format(time), 50, 40, 20);
-            }
-            else {
-                DrawText(canvas, 255, 255, 255, 0, "                        " + formatter2.format(time) + "  " + formatter.format(time), 50, 40, 20);
-            }
+            // Draw date time current
+            // time.setTime(System.currentTimeMillis());
+            // if (getHeight() == 720 && getWidth() == 1280) {
+            //     DrawText(canvas, 255, 255, 255, 0, "                              " + formatter2.format(time) + "  " + formatter.format(time), 50, 40, 20);
+            // }
+            // else {
+            //     DrawText(canvas, 255, 255, 255, 0, "                        " + formatter2.format(time) + "  " + formatter.format(time), 50, 40, 20);
+            // }
             Menu.DrawEsp(this, canvas);
         }
     }
